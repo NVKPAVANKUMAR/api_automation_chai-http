@@ -1,0 +1,28 @@
+{
+  "name": "api_automation",
+  "version": "1.0.0",
+  "description": "api automation using chai-http client",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha",
+    "test-report": "npx mocha -reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NVKPAVANKUMAR/api_automation_chai-http.git"
+  },
+  "author": "NVKPAVANKUMAR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NVKPAVANKUMAR/api_automation_chai-http/issues"
+  },
+  "homepage": "https://github.com/NVKPAVANKUMAR/api_automation_chai-http#readme",
+  "devDependencies": {
+    "mocha": "^8.4.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mochawesome": "^6.2.2"
+  }
+}
